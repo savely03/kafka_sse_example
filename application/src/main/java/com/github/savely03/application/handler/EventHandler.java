@@ -4,7 +4,7 @@ import com.github.savely03.application.model.EventType;
 
 public interface EventHandler {
 
-    void handle(String event);
+    void handleEvent(String event);
 
     EventType getEventType();
 
